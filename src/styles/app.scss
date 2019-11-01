@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 2.8rem;
+  height: 100vh;
+  .btn {
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: none;
+  }
+  .green {
+    border: 2px solid green;
+    background-color: white;
+    font-size: 2rem;
+  }
+  .red {
+    border: 2px solid red;
+    background-color: white;
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\barend\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react reactDOM
+
+PATH: 
+  C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;c:\program files (x86)\razer chroma sdk\bin;c:\program files\razer chroma sdk\bin;c:\program files (x86)\razer\chromabroadcast\bin;c:\program files\razer\chromabroadcast\bin;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;c:\windows\system32\openssh\;c:\users\barend\appdata\local\microsoft\windowsapps;c:\windows\system32\config\systemprofile\appdata\local\microsoft\windowsapps;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\barend\AppData\Local\Microsoft\WindowsApps;C:\Users\barend\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\barend\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\dotnet\;C:\Users\barend\AppData\Local\Microsoft\WindowsApps;;C:\Users\barend\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\barend\AppData\Roaming\npm;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.19.0
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/reactDOM: Not found
+      at Request.params.callback [as _callback] (C:\Users\barend\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66918:18)
+      at Request.self.callback (C:\Users\barend\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140539:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (C:\Users\barend\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141511:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (C:\Users\barend\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141433:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "freelanceable",
+    "version": "0.0.1",
+    "description": "Resource for Freelance Web Developers to aquire customers.",
+    "main": "app.ts",
+    "author": "Barend Du Toit",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
