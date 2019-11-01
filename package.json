@@ -20,6 +20,10 @@
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/barenddt/react-redux-typescript-boilerplate.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
